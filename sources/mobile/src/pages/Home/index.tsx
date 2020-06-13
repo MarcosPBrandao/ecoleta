@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Feather as Icon } from '@expo/vector-icons';
-import { KeyboardAvoidingView, TextInput, ImageBackground, View, Text, Image, StyleSheet } from 'react-native';
+import { KeyboardAvoidingView, TextInput, ImageBackground, View, Text, Image, StyleSheet, Platform } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation } from  '@react-navigation/native';
 const Home = () => {
